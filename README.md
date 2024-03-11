@@ -33,13 +33,13 @@ This project is about creating a password generator. The majority of the HTML ha
 
 
 ### Screenshots:
-[Screenshot](Screenshot%202024-03-10%20at%205.44.38%20PM.png)
+![Screenshot](Screenshot%202024-03-10%20at%205.44.38%20PM.png)
 
 
-[Screenshot](Screenshot%202024-03-10%20at%205.46.09%20PM.png)
+![Screenshot](Screenshot%202024-03-10%20at%205.46.09%20PM.png)
 
 
-[screenshot](Screenshot%202024-03-10%20at%205.47.17%20PM.png)
+![screenshot](Screenshot%202024-03-10%20at%205.47.17%20PM.png)
 
 ### Contact Me
 Feel free to reach me at mehrnaz03@yahoo.com if you have any questions regarding this project.

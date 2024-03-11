@@ -29,7 +29,7 @@ This project is about creating a password generator. The majority of the HTML ha
 
 
 ### Deployment
-[Live]()
+[Live](https://mehrnazkiani24.github.io/password-creating-paths/)
 
 
 ### Screenshots:
@@ -40,3 +40,6 @@ This project is about creating a password generator. The majority of the HTML ha
 
 
 [screenshot](Screenshot%202024-03-10%20at%205.47.17%20PM.png)
+
+### Contact Me
+Feel free to reach me at mehrnaz03@yahoo.com if you have any questions regarding this project.

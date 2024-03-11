@@ -3,15 +3,16 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
   var passwordText = document.querySelector("#password");
+  passwordText.value=""
+  var password = generatePassword();
 
   passwordText.value = password;
 
 }
 
 function generatePassword (){
-  var passwordlength = parseInt(prompt ("enter password length"))
+  var passwordlength = parseInt(prompt ("enter password length bettween 8 and 126"))
   if (passwordlength<8 || passwordlength>126 || isNaN(passwordlength)){
     return "Please enter Password length between 8 and 126"
   }
@@ -39,8 +40,13 @@ function generatePassword (){
     validPasswords += "!#@$%^&*~_-"
   }
   console.log (validPasswords)
+  var password =""
+  for(let i=0;i<passwordlength;i++){
+    var index = Math.floor(Math.random() * validPasswords.length)
+    password += validPasswords[index]
+  }
+  console.log(password)
+  return password
 }
-
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
